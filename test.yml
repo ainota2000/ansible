@@ -1,0 +1,7 @@
+---
+- name: test.yml
+  tasks: 
+    - name: play
+      user:
+        name: test
+        state: absent
