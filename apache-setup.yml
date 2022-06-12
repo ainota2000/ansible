@@ -1,0 +1,8 @@
+---
+- name: apache-setup.yml
+  tasks:
+    - name: yum
+      yum:
+        name: httpd
+        state: present
+        
