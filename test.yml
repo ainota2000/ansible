@@ -1,5 +1,5 @@
 ---
-- name: test.yml
+- name: tesat.yml
   tasks: 
     - name: play
       user:
